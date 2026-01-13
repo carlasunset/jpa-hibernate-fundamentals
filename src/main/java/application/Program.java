@@ -24,5 +24,8 @@ public class Program {
 
         System.out.println("Done!");
 
+        entityManager.close();
+        entityManagerFactory.close();
+
     }
 }
